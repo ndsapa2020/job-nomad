@@ -1,0 +1,50 @@
+/* В файле Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 70px; /* Или другой подходящий размер */
+    height: auto;
+  }
+  
+  .title {
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #45a049;
+  }
+  

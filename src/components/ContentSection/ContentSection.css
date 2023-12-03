@@ -1,0 +1,24 @@
+/* В файле ContentSection.css */
+.content-section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f8f8f8; /* Цвет фона, его можно изменить */
+    text-align: center;
+  }
+  
+  .content-section h2 {
+    margin-bottom: 15px;
+    color: #333; /* Цвет заголовка */
+  }
+  
+  .content-section p {
+    color: #666; /* Цвет текста */
+    margin-bottom: 15px;
+  }
+  
+  .content-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Стиль для изображения, если есть */
+  }
+  
