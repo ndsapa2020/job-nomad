@@ -15,11 +15,12 @@ function App() {
   return (
     <Router>
       <div className="centered-content">
-      <Navbar />
-      <RegistrationForm />
+        <HomePage />
+      {/* <Navbar />
+      <RegistrationForm /> */}
       
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        {/* <Route path="/" element={<HomePage />} /> */}
         <Route path="/about" element={<AboutPage />} />
         <Route path="/countries" element={<CountriesPage />} />
         <Route path="/contact" element={<ContactPage />} />
